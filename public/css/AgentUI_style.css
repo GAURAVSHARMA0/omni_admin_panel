@@ -1,0 +1,321 @@
+.w-32 {width: 2rem;}
+.AgentUI__nav
+{
+	background: #0c82da;
+	padding: .2rem 1rem!important;
+}
+.AgentUI__nav-link
+{
+	padding: 0 .8rem!important;
+}
+.AgentUI__wrapper-div
+{
+	height: 100vh;
+	padding-top: 50px;
+	overflow-x: hidden;
+}
+.AgentUI__sidebar
+{
+	position: fixed;
+	left: 0;
+	top: 0;
+	height: 100%;
+	padding-top: 50px;
+	z-index: 111;
+}
+.AgentUI__right-wrapper
+{
+	padding-left: 56px;
+}
+.AgentUI__sidebar-UL
+{
+	padding: 8px!important;
+}
+.AgentUI__sidebar-item
+{
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	margin-top: 5px;
+}
+.AgentUI__sidebar-item > a
+{
+	padding: 0;
+	line-height: 40px;
+}
+.AgentUI__sidebar-item:hover
+{
+	background: #0a72c2;
+}
+.dropdown-divider-color
+{
+	border: 1px solid #55b0f6!important;
+}
+.AgentUI__Main
+{
+	/*border:1px solid;*/
+	height: auto;
+	margin-left: 5%;
+}
+.AgentUI__interaction
+{
+	position: absolute;
+	width: 100%;
+	left: 0;
+	top: 51px;
+	padding-left: 53px;
+	overflow-x: hidden;
+}
+.AgentUI__live-Inter
+{
+	border-right: 1px solid #ccc;
+	width: 20%;
+	position: relative;
+	height: 100%;
+}
+
+.AgentUI__live-InterDiv
+{
+	padding: 8px 12px;
+	overflow-y: auto;
+}
+.AgentUI__live-InterDiv-hidden
+{
+	margin-left:0;
+	transition:1s;
+	display: none ;
+}
+@keyframes blinker
+{
+	50%{opacity: .5;}
+}
+.dot-blink
+{
+	animation: blinker 2s linear infinite;
+}
+.AgentUI__live-InterDiv > ul > li
+{
+	cursor: pointer;
+}
+.AgentUI__live-InterDiv > ul > li:hover
+{
+	background: #f2f2f2;
+	/*transform: scale(1.1);*/
+	transition: .2s;
+}
+.AgentUI__live-Inter-active
+{
+	border:2px solid #9ed2fa;
+	border-radius: 5px;
+}
+.AgentUI__interaction-Left, .AgentUI__interaction-Right
+{
+	width: 80%;
+	background: #f2f2f2;
+	border-radius: 5px;
+}
+/*.AgentUI__timeline-dropdown-btn
+{
+	background: none!important;
+	margin-top: -7px;
+	border:none!important;
+	box-shadow: none!important;
+}
+.AgentUI__timeline-dropdown-btn:after
+{
+	display: none!important;
+}*/
+.AgentUI__profile-bar
+{
+	position: absolute;
+	width: 100%;
+	bottom: 0;
+	left: 0;
+	padding: 10px 1.25rem;
+	border-top: 1px solid rgba(0,0,0,.125);
+	background: #fff;
+}
+
+.AgentUI__Inter-hide
+{
+	float: right;
+	padding: 0;
+	border:none;
+	background: none;
+	margin-right: -10px;
+	outline: none!important;
+}
+.AgentUI__timeline-hide
+{
+	float: left;
+	padding: 0;
+	border:none;
+	background: none;
+	margin-left: -14.8px;
+	margin-top: 8px;
+	outline: none!important;
+}
+.AgentUI__Inter-show
+{
+	/*position: absolute;*/
+	padding: 0;
+	border:none;
+	background: none;
+	right: -16px;
+	top: 16px;
+	outline: none!important;
+	
+}
+.AgentUI__timeline-show
+{
+	position: absolute;
+	padding: 0;
+	border:none;
+	background: none;
+	left: -19px;
+	top: 0px;
+	outline: none!important;
+	
+}
+.AgentUI__timeline
+{
+	width: 80%;
+	position: relative;
+	box-shadow: 0px 0px 2px 0px #999;
+}
+.AgentUI__timeline-hidden
+{
+	width: 80%;
+	position: relative;
+	box-shadow: 0px 0px 2px 0px #999;
+	margin-right:-80%;
+	transition:1s
+}
+
+.AgentUI__timeline-Dash-grid
+{
+	height: 250px;
+}
+.AgentUI_searchBtn-timeline, .AgentUI_clearBtn-timeline
+{
+	border: 1px solid #ced4da!important;
+}
+.AgentUI_searchBtn-timeline > i, .AgentUI_clearBtn-timeline > i
+{
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	line-height: 30px;
+	margin-right: 10px;
+}
+.AgentUI_searchBtn-timeline:hover i, .AgentUI_clearBtn-timeline:hover i
+{
+	background: #e6e6e6;
+	transition: .8s;
+}
+.AgentUI_timeline-searchTbl th
+{
+	padding: .3rem!important;
+}
+.AgentUI_timeline-searchTbl td
+{
+	padding: .5rem!important;
+}
+.AgentUI__notification-badge
+{
+	position: absolute;
+	top: -10px;
+	right: 3px;
+	font-size: 11px!important;
+}
+.AgentUI__Break-div-hidden
+{
+	text-align: center;
+	display: none;
+}
+.AgentUI__Break-div
+{
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.7);
+	position: absolute;
+	z-index: 1111;
+	text-align: center;
+	
+}
+.AgentUI__notification-div, .AgentUI__profile-div
+{
+	width: 300px;
+	min-height: 100px;
+	max-height: 450px;
+	overflow-y: auto;
+	position: absolute;
+	will-change: transform;
+	top: 145px;
+	right: 0px;
+	transform: translate3d(0px, -116px, 0px);
+	background: #fff;
+	border: 1px solid rgba(0,0,0,.15);
+	padding: .5rem 0;
+	border-radius: .25rem;
+	z-index: 1000;
+	
+}
+.AgentUI__notification-div-hidden, .AgentUI__profile-div-hidden
+{
+	z-index: 1000;
+	display: none;
+}
+.AgentUI__notification-innerBtn
+{
+	background: #e6e6e6!important;
+	border-radius: 50%!important;
+	width: 45px;
+	height: 45px;
+}
+.AgentUI__notification-innerBtn:hover i
+{
+	transform: scale(1.5);
+	transition: .7s;
+}
+.AgentUI__notification-innerBadge
+{
+	position: absolute;
+	top: -5px;
+	right: 20px;
+	font-size: 11px!important;
+}
+
+.AgentUI__notification-dropdown-item
+{
+	display: block;
+	width: 100%;
+	padding: .25rem 1.5rem;
+	clear: both;
+	font-weight: 400;
+	color: #212529;
+	text-align: inherit;
+	background-color: transparent;
+	border: 0;
+	text-decoration: none!important;
+}
+.AgentUI__notification-dropdown-item:hover
+{
+	color: #16181b;
+	text-decoration: none;
+	background-color: #f8f9fa;
+}
+.AgentUI__profile-list
+{
+	list-style-type: none;
+	padding-left: 0;
+}
+.AgentUI__profile-list > li
+{
+	border-top: 1px solid #ddd;
+	padding: 5px 10px;
+}
+.AgentUI__profile-pswrdBtn
+{
+	font-size: 14px!important;
+}
